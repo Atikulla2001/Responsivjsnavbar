@@ -18,7 +18,7 @@ header{
 
 header nav .nav_parent .logo h2{
     font-family: "DM Sans", serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: black;
 }
@@ -104,6 +104,13 @@ header nav .nav_parent .phone_icon{
 
 
 @media (min-width:320px) and (max-width:700px) {
+
+    header nav .nav_parent .logo h2{
+        font-size: 17px;
+    }
+
+
+
     header nav .nav_parent .phone_icon{
         display: block;
     }
@@ -117,6 +124,8 @@ header nav .nav_parent .phone_icon{
         display: block;
  
     }
+
+    
     
 
     
